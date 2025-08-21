@@ -1,0 +1,175 @@
+Oldu 🔥 Sənin üçün indi daha professional, şəkilli və musiqi playerli sayt hazırlayıram. Bu versiyada həm bioqrafiya, həm də mahnıların dinlənə biləcəyi hissə olacaq.
+
+Aşağıdakı kodu kopyalayıb index.html kimi saxla, sonra brauzerdə aç:
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ali Dadaşzade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #0ea5e9, #1e293b);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #1e293b;
+      padding: 12px;
+      text-align: center;
+    }
+    nav a {
+      color: #f8fafc;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #0ea5e9;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0ea5e9;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #334155;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #334155;
+    }
+    .songs audio {
+      width: 100%;
+      margin-top: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    .social a {
+      margin: 0 10px;
+      color: #0ea5e9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .social a:hover {
+      color: #38bdf8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/140" alt="Ali Dadaşzade şəkil">
+    <h1>Ali Dadaşzade</h1>
+    <p>Gənc müğənni və bəstəkar</p>
+  </header>
+
+  <nav>
+    <a href="#bio">Bioqrafiya</a>
+    <a href="#songs">Mahnılar</a>
+    <a href="#contact">Əlaqə</a>
+  </nav>
+
+  <section id="bio">
+    <h2>Bioqrafiya</h2>
+    <p>
+      Ali Dadaşzade 2006-cı ildə Azərbaycanda anadan olub. 2019-cu ildən musiqi fəaliyyətinə başlayıb.
+      Onun mahnılarında sevgi, həyat və emosional duyğular əsas yer tutur. Gənc yaşda olmasına baxmayaraq,
+      artıq bir çox dinləyicinin qəlbini qazanıb.
+    </p>
+  </section>
+
+  <section id="songs" class="songs">
+    <h2>Mahnılar</h2>
+    <ul>
+      <li>
+        Xatirələr  
+        <audio controls>
+          <source src="song1.mp3" type="audio/mpeg">
+        </audio>
+      </li>
+      <li>
+        Son Yaz  
+        <audio controls>
+          <source src="song2.mp3" type="audio/mpeg">
+        </audio>
+      </li>
+      <li>
+        Zaman Keçmir  
+        <audio controls>
+          <source src="song3.mp3" type="audio/mpeg">
+        </audio>
+      </li>
+      <li>
+        Gözündəki Günəş  
+        <audio controls>
+          <source src="song4.mp3" type="audio/mpeg">
+        </audio>
+      </li>
+      <li>
+        Qalaktika  
+        <audio controls>
+          <source src="song5.mp3" type="audio/mpeg">
+        </audio>
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Əlaqə</h2>
+    <p>Sosial şəbəkələrdə izləyin:</p>
+    <div class="social">
+      <a href="https://instagram.com/" target="_blank">Instagram</a>
+      <a href="https://youtube.com/" target="_blank">YouTube</a>
+      <a href="https://open.spotify.com/" target="_blank">Spotify</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Ali Dadaşzade. Bütün hüquqlar qorunur.</p>
+  </footer>
+</body>
+</html>
+
+
+---
+
+🔹 Burada şəkil üçün https://via.placeholder.com/140 qoydum, sən öz şəklini linklə əvəz edə bilərsən.
+🔹 Mahnılar üçün song1.mp3 və s. yazılıb — sən öz mp3 fayllarını həmin adlarla eyni qovluğa qoysan işləyəcək.
+🔹 Dizayn mobil telefonda da çox gözəl görünəcək.
+
+İstəyirsən mən sənə WordPress üçün hazır dizayn təklifi də verim, yoxsa bu HTML versiyası kifayət edir?
+
